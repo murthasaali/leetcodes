@@ -1,0 +1,21 @@
+// Creating an object
+
+let person = {
+  name: 'John',
+  age: 30,
+  city: 'New York'
+};
+// Modifying a property
+person.age = 31;
+person.age=35
+// Adding a new property
+person.gender = 'Male';
+
+// Deleting a property
+
+delete person.gender;
+delete person.city;
+delete person.name;
+delete person.age;
+
+console.log(person.age); // Output the modified object
