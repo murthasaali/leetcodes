@@ -27,5 +27,5 @@ function palindrome(text){
 
     
 }
-text=121
+text=10
 palindrome(text)
