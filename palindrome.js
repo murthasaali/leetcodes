@@ -27,5 +27,5 @@ function palindrome(text){
 
     
 }
-text=10
+text="malayalam"
 palindrome(text)
