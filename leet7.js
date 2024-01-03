@@ -9,7 +9,9 @@ function dos(x) {
         x.shift()
         x.pop()
         concat1 += parseInt(temp)
-
+        if(x.length===1){
+            concat1+=x[0] 
+        }
     }
 
     console.log(concat1)
